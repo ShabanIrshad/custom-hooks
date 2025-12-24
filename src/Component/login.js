@@ -6,8 +6,8 @@ export default function Login(){
 
     return <>
         <h1>Login to the portal.</h1>
-        <input type="email" placeholder='Enter Email..' value={email} onChange={(e)=>{setEmail(e.target.value)}}/>
-        <input type="password" placeholder="Password" value={password} onChange={(e)=>{setPassword(e.target.value)}} />
+        <input type="email" placeholder='Enter Email..' value={email} onChange={(e)=>{setEmail(e.target.value)}}/><br></br>
+        <input type="password" placeholder="Password" value={password} onChange={(e)=>{setPassword(e.target.value)}} /><br></br>
         <button>Login</button>
     </>
 }
